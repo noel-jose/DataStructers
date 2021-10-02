@@ -23,9 +23,9 @@ void selectionSort(int arr[], int size) // Time complexity: O(n^2)
 int main()
 {
     int arr[100], size;
-    printf("\nEnter size ");
+    printf("\nEnter the size ");
     scanf("%d", &size);
-    printf("\nEnter Array "); 
+    printf("\nEnter the Array "); 
     for (int i = 0; i < size; i++)
         scanf("%d", &arr[i]);
 
